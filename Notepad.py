@@ -225,5 +225,5 @@ def main(): #this function is made for controlling choices of user and perform t
             else:
                 print("Invalid choice, try again!")
             input("Press Enter to continue...")
-
-main()
+if __name__ == "__main__":
+    main()
